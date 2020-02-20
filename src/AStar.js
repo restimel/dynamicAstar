@@ -1,16 +1,19 @@
 /* A* algorithm */
 
 /** Node
- * id: unique identifier in order to compare similar nodes
- * cost: current cost to access this node
- * costEstimation: estimated cost to reach the final node (note that if value is always Infinity the algorithm is equivalent to Dijkstra})
- * virtualCost: sum of cost and costEstimation node.
- * parentNode: reference to parent
- *
- * Type (The following attributes should be return by getNeighbourgs):
+ * (The following attributes should be return by getNeighbourgs):
  * id: any
  * cost: number
  * costEstimation: number | ()=>number
+ *
+ *
+ * These are the whole attributes to describe a Node inside the algorithm (the not mandatory attributes are dynamically computed)
+ *
+ * id: unique identifier in order to compare similar nodes
+ * cost: current cost to access this node
+ * costEstimation: estimated cost to reach the final node (note that if value is always 0 the algorithm is equivalent to Dijkstra})
+ * virtualCost: sum of cost and costEstimation node.
+ * parentNode: reference to parent
  */
 
 /** function getNeighbourgs(node) => Node[] */

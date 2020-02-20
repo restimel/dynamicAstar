@@ -1,4 +1,4 @@
-import AStar from '@/algorithm/AStar.js';
+import AStar from '../../src/AStar.js';
 
 describe('AStar.js', () => {
     describe('unitary', () => {
