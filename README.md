@@ -109,7 +109,7 @@ const firstNode = {
 const path = AStar(firstNode, getNeighbours);
 
 /* path is the list of nodes (from start to end) representing the shortest path */
-path.map(node => node.id));
+path.map(node => node.id);
 /* → ['0-6', '0-5', '0-4', '1-4', '2-4', '3-4', '3-3',
       '4-3', '4-2', '4-1', '5-1', '6-1', '6-0']
 */
