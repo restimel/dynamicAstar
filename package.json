@@ -1,0 +1,33 @@
+{
+  "name": "dynamic-astar",
+  "version": "1.0.0",
+  "description": "A* algorithm JS implementation where the graph can be built dynamically.",
+  "main": "src/AStar.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/restimel/dynamicAstar.git"
+  },
+  "keywords": [
+    "AStar",
+    "algorithm",
+    "javascript"
+  ],
+  "author": "Restimel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/restimel/dynamicAstar/issues"
+  },
+  "homepage": "https://github.com/restimel/dynamicAstar#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0"
+  }
+}
