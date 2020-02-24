@@ -1,9 +1,9 @@
 {
   "name": "dynamic-astar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An A* algorithm in JS implementation where the graph can be built dynamically.",
-  "main": "dist/AStar.common.js",
-  "module": "dist/AStar.esm.js",
+  "main": "dist/astar.common.js",
+  "module": "dist/astar.esm.js",
   "directories": {
     "test": "tests"
   },
