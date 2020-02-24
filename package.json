@@ -1,12 +1,15 @@
 {
   "name": "dynamic-astar",
-  "version": "1.0.0",
-  "description": "A* algorithm JS implementation where the graph can be built dynamically.",
-  "main": "src/AStar.js",
+  "version": "1.0.1",
+  "description": "An A* algorithm in JS implementation where the graph can be built dynamically.",
+  "main": "dist/AStar.common.js",
+  "module": "dist/AStar.esm.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
+    "build": "npm run build:bundle",
+    "build:bundle": "rollup -c",
     "test": "jest"
   },
   "repository": {
@@ -28,6 +31,7 @@
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "babel-jest": "^25.1.0",
-    "jest": "^25.1.0"
+    "jest": "^25.1.0",
+    "rollup": "^1.31.1"
   }
 }

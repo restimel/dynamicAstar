@@ -1,5 +1,5 @@
 # dynamicAstar
-An A* algorithm JS implementation where the graph can be built dynamically.
+An A* algorithm in JS implementation where the graph can be built dynamically.
 
 ## Purpose
 
